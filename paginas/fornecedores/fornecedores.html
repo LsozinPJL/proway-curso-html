@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuardaTreco</title>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+</head>
+<body>
+    <a href="/paginas/home.html">
+        <img src="/assets/logo.png" width="20"> GuardaTreco
+    </a>
+    <br>
+    <a href="index.html">Fornecedores</a>
+
+    <form action="index.html" method="get">
+        <div>
+            <label for="campo-fornecedor">Nome do Fornecedor</label>
+            <input type="text" id="campo-fornecedor" minlength="3" required maxlength="24">
+        </div>
+        <div>
+            <label for="campo-fornecedor">CNPJ</label>
+            <input type="text" id="campo-fornecedor" maxlength="14" required>
+        </div>
+        <div>
+            <label for="campo-fornecedor">Escolha o Estado</label>
+            <select name="Estado" id="campo-fornecedor">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </select>
+        </div>
+        <div>
+            <label for="campo-fornecedor">Cidade</label>
+            <input type="text" id="campo-fornecedor" minlength="3" required maxlength="28">
+        </div>
+        <div>
+            <label for="campo-fornecedor">Bairro</label>
+            <input type="text" id="campo-fornecedor" minlength="3" required maxlength="23">
+        </div>
+        <div>
+            <label for="campo-fornecedor">CEP</label>
+            <input type="text" id="campo-fornecedor" maxlength="8" required>
+        </div>
+        <div>
+            <label for="campo-fornecedor">Número</label>
+            <input type="number" id="campo-fornecedor" minlength="1" required maxlength="5">
+        </div>
+        <div>
+            <label for="campo-fornecedor">Logradouro</label>
+            <input type="text" id="campo-fornecedor" minlength="3" required maxlength="15">
+        </div>
+        <div>
+            <label for="campo-fornecedor">Complemento</label>
+            <textarea id="campo-fornecedor" name="complemento" rows="1" cols="20" placeholder="Digite um complemento"></textarea>
+        </div>
+        <button type="submit">Cadastrar Fornecedor</button>
+    </form>
+    
+    
+</body>
+</html>
